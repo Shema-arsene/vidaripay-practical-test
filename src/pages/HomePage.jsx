@@ -67,6 +67,12 @@ const HomePage = () => {
       {/* GiftCard Purchase */}
       {payment === "OneoffPayment" && <OneOffPayment />}
 
+      <p className="p-5 max-w-md block mx-auto text-gray-400/70 text-sm text-center">
+        Your personal data will be used to process your payment, verify your
+        identity, and ensure secure transactions. We may also use your data to
+        improve your experience and as outlined in our privacy policy.
+      </p>
+
       <BackToTop />
     </main>
   )
