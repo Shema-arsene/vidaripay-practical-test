@@ -19,7 +19,7 @@ const GiftCard = () => {
     currency: "RWF",
     provider: "Amazon",
     phone: "",
-    amount: "",
+    amount: 1000,
   })
 
   const [errors, setErrors] = useState({})
@@ -271,7 +271,7 @@ const GiftCard = () => {
               value={formData.phone}
               onChange={handleChange}
               className="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-[#32c770]"
-              placeholder="+250 780 123 456"
+              placeholder="780 123 456"
             />
           </div>
 

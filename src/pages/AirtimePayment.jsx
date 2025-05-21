@@ -18,7 +18,7 @@ const AirtimePayment = () => {
     country: "Rwanda",
     provider: "",
     phone: "",
-    amount: "",
+    amount: 1000,
   })
 
   const [errors, setErrors] = useState({})
@@ -389,7 +389,7 @@ const AirtimePayment = () => {
               value={formData.phone}
               onChange={handleChange}
               className="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-[#32c770]"
-              placeholder="+250 780 123 456"
+              placeholder="780 123 456"
             />
             {errors.phone && (
               <p className="text-red-500 text-sm mt-1">{errors.phone}</p>

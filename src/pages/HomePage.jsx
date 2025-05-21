@@ -1,14 +1,12 @@
 import React, { useState } from "react"
 import Header from "../components/Header"
 import HeroImg from "../assets/images/hero-image.png"
-import { useNavigate } from "react-router-dom"
 import AirtimePayment from "./AirtimePayment"
 import GiftCard from "./GiftCard"
 import OneOffPayment from "./OneOffPayment"
 import BackToTop from "../components/BackToTop"
 
 const HomePage = () => {
-  const navigate = useNavigate()
   const [payment, setPayment] = useState("AirTime")
 
   return (

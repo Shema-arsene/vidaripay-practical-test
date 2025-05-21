@@ -35,7 +35,7 @@ const OneOffPayment = () => {
     expiry: "",
     cvv: "",
     currency: "RWF",
-    amount: "",
+    amount: 1000,
   })
   const [errors, setErrors] = useState({})
 
