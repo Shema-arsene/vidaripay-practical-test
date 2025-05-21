@@ -9,7 +9,7 @@ import BackToTop from "../components/BackToTop"
 
 const HomePage = () => {
   const navigate = useNavigate()
-  const [payment, setPayment] = useState("OneoffPayment")
+  const [payment, setPayment] = useState("AirTime")
 
   return (
     <main>
@@ -31,7 +31,7 @@ const HomePage = () => {
             <li>Purchase Airtime from anywhere around the world!</li>
             <li>Purchase a giftcard for your loved ones</li>
             <li>
-              Make a one off payments from anywhere around the world without
+              Make a one off payment from anywhere around the world without
             </li>
           </ul>
         </div>
